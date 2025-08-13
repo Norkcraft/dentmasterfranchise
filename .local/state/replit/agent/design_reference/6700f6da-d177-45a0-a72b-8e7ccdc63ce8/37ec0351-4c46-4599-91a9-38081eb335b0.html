@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dents Master Franchise - Precision Paintless Dent Repair | Winter Haven, FL</title>
+    <meta name="description" content="Professional paintless dent repair (PDR) services and training in Winter Haven, FL. 30+ years experience, mobile service available, certified technicians.">
+    
+    <!-- Favicon using logo -->
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA2klEQVRYhe2XQQ6DMAxE3+EcnIPzcA7OwTk4B+fgHJyDc3AOzkFdqVLVtk4cO0m/pEhV7fHMOLEdY4wxH8A5dx7H8QowxpjLOI6/SimXaZoulFJXpZRTSnmttb6EEK6cc+dSyuUwDL+UUk4p5bTW+hJCuBpjLqWUyzAMv5RSTimltdaXEMJVa31xzp1LKZdhGH4pHVdKOa21voQQrsa+llIuw+D8UkpprbW+hBCu+mfmw1Jp1YfNAzUP1DxQ80DNAzUP1DxQ80DNAzUP1DxQ80DNAzUP1DxQ80DNA++YB/4A8w/0A7s4C+cAAAAASUVORK5CYII=">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'dents-red': '#D31E26',
+                        'dents-black': '#000000',
+                        'dents-charcoal': '#1a1a1a',
+                        'dents-silver': '#BDBDBD',
+                        'dents-gray': '#F5F5F5'
+                    },
+                    fontFamily: {
+                        'heading': ['Montserrat', 'sans-serif'],
+                        'body': ['Inter', 'sans-serif']
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'slide-up': 'slideUp 0.6s ease-out',
+                        'fade-in': 'fadeIn 0.8s ease-out',
+                        'marquee': 'marquee 30s linear infinite',
+                        'pulse-soft': 'pulseSoft 2s ease-in-out infinite'
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-10px)' }
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(30px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' }
+                        },
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' }
+                        },
+                        marquee: {
+                            '0%': { transform: 'translateX(100%)' },
+                            '100%': { transform: 'translateX(-100%)' }
+                        },
+                        pulseSoft: {
+                            '0%, 100%': { transform: 'scale(1)' },
+                            '50%': { transform: 'scale(1.05)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Dents Master Franchise",
+        "image": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=630",
+        "@id": "",
+        "url": "",
+        "telephone": "+14077933446",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "3411 Recker Hwy",
+            "addressLocality": "Winter Haven",
+            "addressRegion": "FL",
+            "postalCode": "33880",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 28.0222,
+            "longitude": -81.7431
+        },
+        "openingHours": [
+            "Mo-Fr 08:00-18:00",
+            "Sa 09:00-14:00"
+        ],
+        "sameAs": []
+    }
+    </script>
+    
+    <style>
+        .parallax-container {
+            transform: translate3d(0, 0, 0);
+        }
+        
+        .hero-video {
+            object-fit: cover;
+            transform: scale(1.1);
+        }
+        
+        .split-slider {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .split-slider .after-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%);
+            transition: clip-path 0.3s ease;
+        }
+        
+        .glass-morphism {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body class="font-body bg-white text-gray-800 overflow-x-hidden">
+    
+    <!-- Sticky Header -->
+    <header id="header" class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-lg transition-all duration-300">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo & Tagline -->
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-dents-black rounded-full flex items-center justify-center">
+                        <span class="text-dents-red font-heading font-black text-lg">DM</span>
+                    </div>
+                    <div>
+                        <h1 class="font-heading font-black text-xl text-dents-black">DENTS MASTER</h1>
+                        <p class="text-sm text-gray-600">Precision Repairs. World-Class Training.</p>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-8">
+                    <a href="#home" class="nav-link text-gray-700 hover:text-dents-red transition-colors duration-200">Home</a>
+                    <a href="#services" class="nav-link text-gray-700 hover:text-dents-red transition-colors duration-200">Services</a>
+                    <a href="#training" class="nav-link text-gray-700 hover:text-dents-red transition-colors duration-200">Training</a>
+                    <a href="#about" class="nav-link text-gray-700 hover:text-dents-red transition-colors duration-200">About</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-dents-red transition-colors duration-200">Contact</a>
+                </nav>
+                
+                <!-- Phone & CTA -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="tel:+14077933446" class="flex items-center text-dents-black hover:text-dents-red transition-colors">
+                        <i class="fas fa-phone mr-2"></i>
+                        <span class="font-semibold">(407) 793-3446</span>
+                    </a>
+                    <button onclick="openContactModal()" class="bg-dents-red text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 hover:scale-105 transition-all duration-200">
+                        Get a Free Quote
+                    </button>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="lg:hidden text-gray-700 hover:text-dents-red">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="lg:hidden bg-white shadow-lg transform -translate-y-full opacity-0 transition-all duration-300">
+            <nav class="container mx-auto px-4 py-4 space-y-4">
+                <a href="#home" class="block text-gray-700 hover:text-dents-red transition-colors">Home</a>
+                <a href="#services" class="block text-gray-700 hover:text-dents-red transition-colors">Services</a>
+                <a href="#training" class="block text-gray-700 hover:text-dents-red transition-colors">Training</a>
+                <a href="#about" class="block text-gray-700 hover:text-dents-red transition-colors">About</a>
+                <a href="#contact" class="block text-gray-700 hover:text-dents-red transition-colors">Contact</a>
+                <a href="tel:+14077933446" class="block text-dents-red font-semibold">
+                    <i class="fas fa-phone mr-2"></i> (407) 793-3446
+                </a>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Mobile Call Bar -->
+    <div class="fixed top-0 left-0 right-0 z-40 bg-dents-red text-white text-center py-2 lg:hidden transform -translate-y-full" id="mobile-call-bar">
+        <a href="tel:+14077933446" class="text-sm font-semibold">
+            <i class="fas fa-phone mr-2"></i> Tap to Call Now
+        </a>
+    </div>
+    
+    <!-- Page Content -->
+    <main id="main-content">
+        
+        <!-- HOME SECTION -->
+        <section id="home" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+            <!-- Background Video -->
+            <div class="absolute inset-0 z-0">
+                <!-- Professional PDR work close-up shot showing hands using tools -->
+                <video 
+                    autoplay 
+                    muted 
+                    loop 
+                    playsinline 
+                    poster="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080"
+                    class="hero-video w-full h-full object-cover"
+                >
+                    <source src="https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+                    <!-- TODO: Replace with actual PDR hero video -->
+                </video>
+                <div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="relative z-10 container mx-auto px-4 text-left max-w-6xl">
+                <div class="lg:w-1/2 animate-slide-up">
+                    <h1 class="font-heading font-black text-5xl lg:text-7xl text-white mb-6 leading-tight">
+                        Precision<br>
+                        <span class="text-dents-red">Paintless</span><br>
+                        Dent Repair
+                    </h1>
+                    <p class="text-xl text-gray-200 mb-8 leading-relaxed">
+                        Serving Winter Haven & Central Florida for Over 30 Years — Mobile Service Available.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
+                        <button onclick="openContactModal()" class="bg-dents-red text-white px-8 py-4 rounded-full font-heading font-bold text-lg hover:bg-red-700 hover:scale-105 transition-all duration-200 shadow-lg">
+                            Get a Free Quote
+                        </button>
+                        <button onclick="scrollToSection('training')" class="border-2 border-white text-white px-8 py-4 rounded-full font-heading font-bold text-lg hover:bg-white hover:text-dents-black transition-all duration-200">
+                            Learn PDR
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Trust Row -->
+        <section class="bg-dents-gray py-8">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-wrap justify-center items-center space-x-8 text-center">
+                    <div class="flex items-center space-x-2 mb-4 lg:mb-0">
+                        <i class="fas fa-star text-dents-red"></i>
+                        <span class="font-semibold text-gray-700">30+ Years Experience</span>
+                    </div>
+                    <div class="flex items-center space-x-2 mb-4 lg:mb-0">
+                        <i class="fas fa-mobile-alt text-dents-red"></i>
+                        <span class="font-semibold text-gray-700">Mobile Service</span>
+                    </div>
+                    <div class="flex items-center space-x-2 mb-4 lg:mb-0">
+                        <i class="fas fa-certificate text-dents-red"></i>
+                        <span class="font-semibold text-gray-700">Certified Training</span>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <i class="fas fa-star text-dents-red"></i>
+                        <span class="font-semibold text-gray-700">5-Star Rated</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Why PDR Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="font-heading font-black text-4xl lg:text-5xl text-dents-black mb-6">Why Paintless Dent Repair?</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-5 gap-8">
+                    <div class="text-center group animate-slide-up" style="animation-delay: 0.1s">
+                        <div class="bg-dents-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-dents-red/20 transition-colors">
+                            <i class="fas fa-clock text-dents-red text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">Faster Repairs</h3>
+                        <p class="text-gray-600">Quick turnaround times</p>
+                    </div>
+                    
+                    <div class="text-center group animate-slide-up" style="animation-delay: 0.2s">
+                        <div class="bg-dents-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-dents-red/20 transition-colors">
+                            <i class="fas fa-dollar-sign text-dents-red text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">Cost-Effective</h3>
+                        <p class="text-gray-600">Save compared to traditional</p>
+                    </div>
+                    
+                    <div class="text-center group animate-slide-up" style="animation-delay: 0.3s">
+                        <div class="bg-dents-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-dents-red/20 transition-colors">
+                            <i class="fas fa-paint-brush text-dents-red text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">Preserves Paint</h3>
+                        <p class="text-gray-600">Maintains factory finish</p>
+                    </div>
+                    
+                    <div class="text-center group animate-slide-up" style="animation-delay: 0.4s">
+                        <div class="bg-dents-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-dents-red/20 transition-colors">
+                            <i class="fas fa-leaf text-dents-red text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">Eco-Friendly</h3>
+                        <p class="text-gray-600">No harmful chemicals</p>
+                    </div>
+                    
+                    <div class="text-center group animate-slide-up" style="animation-delay: 0.5s">
+                        <div class="bg-dents-red/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-dents-red/20 transition-colors">
+                            <i class="fas fa-chart-line text-dents-red text-2xl"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">Retains Value</h3>
+                        <p class="text-gray-600">Preserves resale value</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- SERVICES SECTION -->
+        <section id="services" class="py-20 bg-dents-black">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="font-heading font-black text-4xl lg:text-5xl text-white mb-6">Our Services</h2>
+                    <p class="text-gray-300 text-xl max-w-2xl mx-auto">Professional paintless dent repair services with 30+ years of expertise</p>
+                </div>
+                
+                <div class="grid lg:grid-cols-2 gap-8 mb-16">
+                    <!-- Service Card 1 -->
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group">
+                        <div class="flex items-start space-x-6">
+                            <div class="bg-dents-red/20 w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-dents-red/30 transition-colors">
+                                <i class="fas fa-cloud-rain text-dents-red text-2xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-white mb-3">Hail Damage Repair</h3>
+                                <p class="text-gray-300 mb-4">Professional hail damage restoration without repainting. We work with insurance companies to provide accurate estimates while maintaining your vehicle's factory finish and warranty.</p>
+                                <button class="text-dents-red font-semibold hover:text-red-300 transition-colors">Learn More →</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service Card 2 -->
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group">
+                        <div class="flex items-start space-x-6">
+                            <div class="bg-dents-red/20 w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-dents-red/30 transition-colors">
+                                <i class="fas fa-car-side text-dents-red text-2xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-white mb-3">Door Ding Removal</h3>
+                                <p class="text-gray-300 mb-4">Quick, same-day fixes for those annoying parking lot dings and minor dents. Most repairs completed within hours, restoring your vehicle to its original condition.</p>
+                                <button class="text-dents-red font-semibold hover:text-red-300 transition-colors">Learn More →</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service Card 3 -->
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group">
+                        <div class="flex items-start space-x-6">
+                            <div class="bg-dents-red/20 w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-dents-red/30 transition-colors">
+                                <i class="fas fa-tools text-dents-red text-2xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-white mb-3">Crease & Panel Restoration</h3>
+                                <p class="text-gray-300 mb-4">Advanced crease removal and complex panel restoration using specialized tools and techniques. We handle challenging repairs that others can't.</p>
+                                <button class="text-dents-red font-semibold hover:text-red-300 transition-colors">Learn More →</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Service Card 4 -->
+                    <div class="bg-gray-900 rounded-2xl p-8 hover:transform hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group">
+                        <div class="flex items-start space-x-6">
+                            <div class="bg-dents-red/20 w-16 h-16 rounded-xl flex items-center justify-center flex-shrink-0 group-hover:bg-dents-red/30 transition-colors">
+                                <i class="fas fa-mobile-alt text-dents-red text-2xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-heading font-bold text-xl text-white mb-3">Mobile PDR Service</h3>
+                                <p class="text-gray-300 mb-4">Fully-equipped mobile van service — we come to your home, office, or any convenient location. Professional repairs performed on-site with the same quality as our shop.</p>
+                                <button class="text-dents-red font-semibold hover:text-red-300 transition-colors">Learn More →</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- PDR vs Traditional Comparison -->
+                <div class="bg-gray-900 rounded-2xl p-8">
+                    <h3 class="font-heading font-bold text-2xl text-white mb-6 text-center">PDR vs Traditional Repair</h3>
+                    <div class="overflow-x-auto">
+                        <table class="w-full text-white">
+                            <thead>
+                                <tr class="border-b border-gray-700">
+                                    <th class="text-left py-4 px-4">Factor</th>
+                                    <th class="text-center py-4 px-4">PDR</th>
+                                    <th class="text-center py-4 px-4">Traditional</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-gray-800">
+                                    <td class="py-4 px-4 font-semibold">Time</td>
+                                    <td class="py-4 px-4 text-center"><i class="fas fa-check text-green-500 text-xl"></i> Hours</td>
+                                    <td class="py-4 px-4 text-center"><i class="fas fa-times text-red-500 text-xl"></i> Days</td>
+                                </tr>
+                                <tr class="border-b border-gray-800">
+                                    <td class="py-4 px-4 font-semibold">Cost</td>
+                                    <td class="py-4 px-4 text-center"><i class="fas fa-check text-green-500 text-xl"></i> Lower</td>
+                                    <td class="py-4 px-4 text-center"><i class="fas fa-times text-red-500 text-xl"></i> Higher</td>
+                                </tr>
+                                <tr class="border-b border-gray-800">
+                                    <td class="py-4 px-4 font-semibold">Paint</td>
+                                    <td class="py-4 px-4 text-center"><i class="fas fa-check text-green-500 text-xl"></i> Original</td>
+                                    <td class="py-4 px-4 text-center"><i class="fas fa-times text-red-500 text-xl"></i> Repainted</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-4 px-4 font-semibold">Resale Impact</td>
+                                    <td class="py-4 px-4 text-center"><i class="fas fa-check text-green-500 text-xl"></i> No Impact</td>
+                                    <td class="py-4 px-4 text-center"><i class="fas fa-times text-red-500 text-xl"></i> Value Loss</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Before/After Gallery -->
+        <section class="py-20 bg-dents-gray">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="font-heading font-black text-4xl lg:text-5xl text-dents-black mb-6">See Our Results</h2>
+                    <p class="text-gray-600 text-xl">Real repairs from our satisfied customers</p>
+                </div>
+                
+                <div class="grid lg:grid-cols-3 gap-8">
+                    <!-- Before/After 1 -->
+                    <div class="split-slider rounded-2xl overflow-hidden shadow-2xl h-64 bg-gray-300" data-before="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" data-after="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600">
+                        <!-- Car door with multiple dents from hail damage -->
+                        <img src="https://pixabay.com/get/g380a8170395c14d46c59768c9c85aed4d0c8d79aa5a50f2b3c8098bf8155acd7161ee382f5c565a2dd8d705f0e00575296f20d7dd38136308139efe42f4675c5_1280.jpg" alt="Before - dented car door with hail damage" class="w-full h-full object-cover">
+                        <!-- Same car door completely restored with perfect finish -->
+                        <img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="After - restored car door without any dents" class="after-image w-full h-full object-cover">
+                        <div class="absolute bottom-4 left-4 right-4 flex justify-between">
+                            <span class="bg-black/70 text-white px-3 py-1 rounded-full text-sm">Before</span>
+                            <span class="bg-dents-red text-white px-3 py-1 rounded-full text-sm">After</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Before/After 2 -->
+                    <div class="split-slider rounded-2xl overflow-hidden shadow-2xl h-64 bg-gray-300" data-before="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" data-after="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600">
+                        <!-- Car fender with large crease damage -->
+                        <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Before - car fender with crease damage" class="w-full h-full object-cover">
+                        <!-- Same fender perfectly repaired -->
+                        <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="After - restored car fender without damage" class="after-image w-full h-full object-cover">
+                        <div class="absolute bottom-4 left-4 right-4 flex justify-between">
+                            <span class="bg-black/70 text-white px-3 py-1 rounded-full text-sm">Before</span>
+                            <span class="bg-dents-red text-white px-3 py-1 rounded-full text-sm">After</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Before/After 3 -->
+                    <div class="split-slider rounded-2xl overflow-hidden shadow-2xl h-64 bg-gray-300" data-before="https://images.unsplash.com/photo-1544824337-8e7b4b3cb38c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" data-after="https://images.unsplash.com/photo-1550355291-bbee04a92027?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600">
+                        <!-- Car trunk with dent damage -->
+                        <img src="https://pixabay.com/get/g52d10bf2a21535ddf018f1c710089578904dcb29c078027e666a18bf89cb00a1693e52baa54c0b371b90f635707211eb_1280.jpg" alt="Before - car trunk with dent damage" class="w-full h-full object-cover">
+                        <!-- Same trunk perfectly restored -->
+                        <img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="After - restored car trunk without dents" class="after-image w-full h-full object-cover">
+                        <div class="absolute bottom-4 left-4 right-4 flex justify-between">
+                            <span class="bg-black/70 text-white px-3 py-1 rounded-full text-sm">Before</span>
+                            <span class="bg-dents-red text-white px-3 py-1 rounded-full text-sm">After</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="font-heading font-black text-4xl lg:text-5xl text-dents-black mb-6">What Our Customers Say</h2>
+                </div>
+                
+                <div class="max-w-4xl mx-auto">
+                    <div id="testimonials-slider" class="relative overflow-hidden">
+                        <div class="testimonials-track flex transition-transform duration-500 ease-in-out">
+                            <!-- Testimonial 1 -->
+                            <div class="testimonial-slide w-full flex-shrink-0 text-center px-8">
+                                <div class="bg-dents-gray rounded-2xl p-8">
+                                    <div class="text-dents-red mb-4">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="text-gray-700 text-lg mb-6 italic">"They repaired a huge dent on my truck in just a few hours — you can't even tell it was ever damaged. Highly professional team!"</p>
+                                    <div class="font-semibold text-dents-black">Mark R.</div>
+                                    <div class="text-gray-600">Lakeland, FL</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 2 -->
+                            <div class="testimonial-slide w-full flex-shrink-0 text-center px-8">
+                                <div class="bg-dents-gray rounded-2xl p-8">
+                                    <div class="text-dents-red mb-4">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="text-gray-700 text-lg mb-6 italic">"The training was top-notch. I now run my own PDR business thanks to Dents Master's expertise."</p>
+                                    <div class="font-semibold text-dents-black">Angela P.</div>
+                                    <div class="text-gray-600">Tampa, FL</div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 3 -->
+                            <div class="testimonial-slide w-full flex-shrink-0 text-center px-8">
+                                <div class="bg-dents-gray rounded-2xl p-8">
+                                    <div class="text-dents-red mb-4">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <p class="text-gray-700 text-lg mb-6 italic">"Mobile service was a lifesaver after a hailstorm. Fast, friendly, and flawless work."</p>
+                                    <div class="font-semibold text-dents-black">David S.</div>
+                                    <div class="text-gray-600">Orlando, FL</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Navigation Dots -->
+                        <div class="flex justify-center mt-8 space-x-2">
+                            <button class="testimonial-dot w-3 h-3 rounded-full bg-dents-red" data-slide="0"></button>
+                            <button class="testimonial-dot w-3 h-3 rounded-full bg-gray-300" data-slide="1"></button>
+                            <button class="testimonial-dot w-3 h-3 rounded-full bg-gray-300" data-slide="2"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Trust Badges Marquee -->
+        <section class="py-12 bg-dents-black overflow-hidden">
+            <div class="container mx-auto px-4">
+                <div class="relative">
+                    <div class="flex animate-marquee space-x-12 items-center">
+                        <!-- Badge placeholders -->
+                        <div class="flex items-center space-x-3 text-white">
+                            <i class="fas fa-certificate text-dents-red text-2xl"></i>
+                            <span class="font-semibold">ICAR Certified</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-white">
+                            <i class="fas fa-award text-dents-red text-2xl"></i>
+                            <span class="font-semibold">ASE Certified</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-white">
+                            <i class="fas fa-shield-alt text-dents-red text-2xl"></i>
+                            <span class="font-semibold">BBB A+ Rating</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-white">
+                            <i class="fas fa-star text-dents-red text-2xl"></i>
+                            <span class="font-semibold">30+ Years Experience</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-white">
+                            <i class="fas fa-star-half-alt text-dents-red text-2xl"></i>
+                            <span class="font-semibold">5-Star Reviews</span>
+                        </div>
+                        <!-- Repeat for continuous scroll -->
+                        <div class="flex items-center space-x-3 text-white">
+                            <i class="fas fa-certificate text-dents-red text-2xl"></i>
+                            <span class="font-semibold">ICAR Certified</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-white">
+                            <i class="fas fa-award text-dents-red text-2xl"></i>
+                            <span class="font-semibold">ASE Certified</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-white">
+                            <i class="fas fa-shield-alt text-dents-red text-2xl"></i>
+                            <span class="font-semibold">BBB A+ Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- TRAINING SECTION -->
+        <section id="training" class="py-20 bg-dents-gray">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="font-heading font-black text-4xl lg:text-5xl text-dents-black mb-6">Master the Art of Paintless Dent Repair</h2>
+                    <p class="text-gray-600 text-xl max-w-3xl mx-auto">Hands-on, in-person training taught by technicians with 30+ years experience. Certification awarded on completion. International students welcome.</p>
+                </div>
+                
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+                    <div>
+                        <!-- Professional PDR training workshop with instructor and students -->
+                        <img src="https://pixabay.com/get/gcf728694b1325889f6baa6e9bd8b2ce1b0a8bca5ebf78517301ac31487f17dec89bf3986daff83f18d5edd5e1e845b20471c98949cf4c164257d425565abce27_1280.jpg" alt="PDR training workshop with instructor teaching students" class="rounded-2xl shadow-2xl">
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-3xl text-dents-black mb-8">What You'll Learn</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-dents-red w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <span class="text-gray-700 font-medium">Professional tool handling and selection</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-dents-red w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <span class="text-gray-700 font-medium">Dent assessment and repair strategy</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-dents-red w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <span class="text-gray-700 font-medium">Hail damage and mass repair techniques</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-dents-red w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <span class="text-gray-700 font-medium">Advanced crease repair methods</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-dents-red w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <span class="text-gray-700 font-medium">Business fundamentals and pricing</span>
+                            </div>
+                            <div class="flex items-center space-x-4">
+                                <div class="bg-dents-red w-6 h-6 rounded-full flex-shrink-0 flex items-center justify-center">
+                                    <i class="fas fa-check text-white text-sm"></i>
+                                </div>
+                                <span class="text-gray-700 font-medium">Safety protocols and client workflow</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- How to Enroll Process -->
+                <div class="mb-16">
+                    <h3 class="font-heading font-bold text-3xl text-dents-black mb-12 text-center">How to Enroll</h3>
+                    <div class="grid md:grid-cols-5 gap-8">
+                        <div class="text-center group">
+                            <div class="bg-dents-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">1</div>
+                            <h4 class="font-heading font-bold text-lg mb-2">Submit Inquiry</h4>
+                            <p class="text-gray-600 text-sm">Complete our training information form</p>
+                        </div>
+                        
+                        <div class="text-center group">
+                            <div class="bg-dents-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">2</div>
+                            <h4 class="font-heading font-bold text-lg mb-2">Consultation</h4>
+                            <p class="text-gray-600 text-sm">Speak with our Training Coordinator</p>
+                        </div>
+                        
+                        <div class="text-center group">
+                            <div class="bg-dents-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">3</div>
+                            <h4 class="font-heading font-bold text-lg mb-2">Secure Spot</h4>
+                            <p class="text-gray-600 text-sm">Pay deposit to reserve your place</p>
+                        </div>
+                        
+                        <div class="text-center group">
+                            <div class="bg-dents-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">4</div>
+                            <h4 class="font-heading font-bold text-lg mb-2">Training</h4>
+                            <p class="text-gray-600 text-sm">Attend in-person hands-on training</p>
+                        </div>
+                        
+                        <div class="text-center group">
+                            <div class="bg-dents-red w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold group-hover:scale-110 transition-transform">5</div>
+                            <h4 class="font-heading font-bold text-lg mb-2">Graduate</h4>
+                            <p class="text-gray-600 text-sm">Earn certification & professional skills</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Training CTA -->
+                <div class="text-center">
+                    <div class="space-x-4">
+                        <button onclick="openContactModal('training')" class="bg-dents-red text-white px-8 py-4 rounded-full font-heading font-bold text-lg hover:bg-red-700 hover:scale-105 transition-all duration-200 shadow-lg">
+                            Request Training Info
+                        </button>
+                        <button onclick="openContactModal('training')" class="border-2 border-dents-red text-dents-red px-8 py-4 rounded-full font-heading font-bold text-lg hover:bg-dents-red hover:text-white transition-all duration-200">
+                            Apply Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ABOUT SECTION -->
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-4">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="font-heading font-black text-4xl lg:text-5xl text-dents-black mb-6">About Dents Master</h2>
+                        <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                            For over 30 years, Dents Master Franchise has been Central Florida's premier destination for paintless dent repair services and professional PDR training. Our commitment to precision, quality, and excellence has earned us the trust of thousands of satisfied customers and trained hundreds of successful PDR technicians.
+                        </p>
+                        <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                            Located in Winter Haven, we serve the entire Central Florida region with both in-shop services and mobile repairs. Our mission is to provide unmatched PDR services while sharing our expertise through comprehensive training programs that maintain the highest industry standards.
+                        </p>
+                        
+                        <!-- Trust Indicators -->
+                        <div class="grid grid-cols-3 gap-6">
+                            <div class="text-center">
+                                <div class="text-3xl font-black text-dents-red mb-2">30+</div>
+                                <div class="text-sm text-gray-600 font-semibold">Years Experience</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-black text-dents-red mb-2">5000+</div>
+                                <div class="text-sm text-gray-600 font-semibold">Repairs Completed</div>
+                            </div>
+                            <div class="text-center">
+                                <div class="text-3xl font-black text-dents-red mb-2">200+</div>
+                                <div class="text-sm text-gray-600 font-semibold">Students Trained</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <!-- Professional PDR workshop interior showing tools and workspace -->
+                        <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Professional PDR workshop interior with tools and workspace" class="rounded-2xl shadow-2xl">
+                    </div>
+                </div>
+                
+                <!-- Timeline -->
+                <div class="mt-16">
+                    <h3 class="font-heading font-bold text-3xl text-dents-black mb-12 text-center">Our Journey</h3>
+                    <div class="relative">
+                        <div class="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-dents-red"></div>
+                        
+                        <div class="space-y-12">
+                            <!-- Timeline Item 1 -->
+                            <div class="flex items-center">
+                                <div class="w-1/2 pr-8 text-right">
+                                    <div class="bg-dents-gray p-6 rounded-lg">
+                                        <h4 class="font-heading font-bold text-lg mb-2">1990s - Founded</h4>
+                                        <p class="text-gray-600">Established as Winter Haven's first PDR specialist</p>
+                                    </div>
+                                </div>
+                                <div class="w-8 h-8 bg-dents-red rounded-full flex-shrink-0 border-4 border-white shadow-lg"></div>
+                                <div class="w-1/2 pl-8"></div>
+                            </div>
+                            
+                            <!-- Timeline Item 2 -->
+                            <div class="flex items-center">
+                                <div class="w-1/2 pr-8"></div>
+                                <div class="w-8 h-8 bg-dents-red rounded-full flex-shrink-0 border-4 border-white shadow-lg"></div>
+                                <div class="w-1/2 pl-8">
+                                    <div class="bg-dents-gray p-6 rounded-lg">
+                                        <h4 class="font-heading font-bold text-lg mb-2">2000s - Expansion</h4>
+                                        <p class="text-gray-600">Added mobile services and began training program</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Timeline Item 3 -->
+                            <div class="flex items-center">
+                                <div class="w-1/2 pr-8 text-right">
+                                    <div class="bg-dents-gray p-6 rounded-lg">
+                                        <h4 class="font-heading font-bold text-lg mb-2">Today</h4>
+                                        <p class="text-gray-600">Industry leader in PDR services and certification training</p>
+                                    </div>
+                                </div>
+                                <div class="w-8 h-8 bg-dents-red rounded-full flex-shrink-0 border-4 border-white shadow-lg"></div>
+                                <div class="w-1/2 pl-8"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="py-20 bg-dents-black">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="font-heading font-black text-4xl lg:text-5xl text-white mb-6">Get In Touch</h2>
+                    <p class="text-gray-300 text-xl">Ready to restore your vehicle or start your PDR career?</p>
+                </div>
+                
+                <div class="grid lg:grid-cols-2 gap-12">
+                    <!-- Contact Form -->
+                    <div class="bg-gray-900 rounded-2xl p-8">
+                        <h3 class="font-heading font-bold text-2xl text-white mb-6">Send Us a Message</h3>
+                        <form id="contact-form" class="space-y-6">
+                            <div class="grid md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-gray-300 text-sm font-semibold mb-2">Name *</label>
+                                    <input type="text" name="name" required class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red">
+                                </div>
+                                <div>
+                                    <label class="block text-gray-300 text-sm font-semibold mb-2">Phone *</label>
+                                    <input type="tel" name="phone" required class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-300 text-sm font-semibold mb-2">Email *</label>
+                                <input type="email" name="email" required class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-300 text-sm font-semibold mb-2">What can we help you with? *</label>
+                                <select name="inquiryType" required class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red">
+                                    <option value="">Select an option</option>
+                                    <option value="repair">Book Dent Repair Service</option>
+                                    <option value="training">Request Training Information</option>
+                                    <option value="other">Other Inquiry</option>
+                                </select>
+                            </div>
+                            
+                            <!-- Conditional Fields -->
+                            <div id="repair-fields" class="hidden space-y-4">
+                                <div>
+                                    <label class="block text-gray-300 text-sm font-semibold mb-2">Service Address</label>
+                                    <input type="text" name="serviceAddress" class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red">
+                                </div>
+                                <div class="grid md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-gray-300 text-sm font-semibold mb-2">Preferred Date</label>
+                                        <input type="date" name="preferredDate" class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red">
+                                    </div>
+                                    <div>
+                                        <label class="block text-gray-300 text-sm font-semibold mb-2">Vehicle Make/Model</label>
+                                        <input type="text" name="vehicleInfo" class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-gray-300 text-sm font-semibold mb-2">Message</label>
+                                <textarea name="message" rows="4" class="w-full bg-gray-800 text-white px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red resize-none"></textarea>
+                            </div>
+                            
+                            <!-- Hidden UTM Fields -->
+                            <input type="hidden" name="utm_source" value="">
+                            <input type="hidden" name="utm_medium" value="">
+                            <input type="hidden" name="utm_campaign" value="">
+                            
+                            <button type="submit" class="w-full bg-dents-red text-white py-4 rounded-lg font-heading font-bold text-lg hover:bg-red-700 hover:scale-[1.02] transition-all duration-200">
+                                Send Message
+                            </button>
+                            
+                            <p class="text-gray-400 text-sm text-center">We respect your privacy — we won't share your info.</p>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Info & Map -->
+                    <div class="space-y-8">
+                        <!-- Contact Details -->
+                        <div class="bg-gray-900 rounded-2xl p-8">
+                            <h3 class="font-heading font-bold text-2xl text-white mb-6">Contact Information</h3>
+                            
+                            <div class="space-y-4">
+                                <div class="flex items-center space-x-4">
+                                    <div class="bg-dents-red w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-map-marker-alt text-white"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-white font-semibold">Address</div>
+                                        <div class="text-gray-300">3411 Recker Hwy<br>Winter Haven, FL 33880</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-center space-x-4">
+                                    <div class="bg-dents-red w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-phone text-white"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-white font-semibold">Phone</div>
+                                        <a href="tel:+14077933446" class="text-dents-red hover:text-red-300 transition-colors text-lg font-semibold">(407) 793-3446</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-center space-x-4">
+                                    <div class="bg-dents-red w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-envelope text-white"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-white font-semibold">Email</div>
+                                        <a href="mailto:info@dentsmasterfranchise.com" class="text-dents-red hover:text-red-300 transition-colors">info@dentsmasterfranchise.com</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-center space-x-4">
+                                    <div class="bg-dents-red w-12 h-12 rounded-full flex items-center justify-center">
+                                        <i class="fas fa-clock text-white"></i>
+                                    </div>
+                                    <div>
+                                        <div class="text-white font-semibold">Hours</div>
+                                        <div class="text-gray-300">Mon-Fri: 8am-6pm<br>Saturday: 9am-2pm</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-6 pt-6 border-t border-gray-700">
+                                <a href="tel:+14077933446" class="w-full bg-dents-red text-white py-3 rounded-lg font-heading font-bold text-center block hover:bg-red-700 transition-colors">
+                                    <i class="fas fa-phone mr-2"></i> Call Now
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <!-- Google Map -->
+                        <div class="bg-gray-900 rounded-2xl overflow-hidden">
+                            <div class="p-6">
+                                <h3 class="font-heading font-bold text-xl text-white mb-4">Our Location</h3>
+                                <p class="text-gray-300 text-sm mb-4">Proudly serving Winter Haven, Lakeland, Auburndale, Haines City, and greater Central Florida. Mobile service available.</p>
+                            </div>
+                            <!-- Google Maps Embed -->
+                            <div class="h-64">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.8823594715353!2d-81.7453!3d28.0222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDAxJzE5LjkiTiA4McKwNDQnNDMuMSJX!5e0!3m2!1sen!2sus!4v1234567890123"
+                                    width="100%" 
+                                    height="100%" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-dents-charcoal py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 bg-dents-red rounded-full flex items-center justify-center">
+                            <span class="text-white font-heading font-black">DM</span>
+                        </div>
+                        <span class="font-heading font-black text-white text-xl">DENTS MASTER</span>
+                    </div>
+                    <p class="text-gray-400 mb-4">3411 Recker Hwy<br>Winter Haven, FL 33880</p>
+                    <p class="text-gray-400 text-sm">Serving Winter Haven, Lakeland, Auburndale, Haines City, and Central Florida. Mobile service available.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-4">Quick Links</h4>
+                    <nav class="space-y-2">
+                        <a href="#home" class="block text-gray-400 hover:text-dents-red transition-colors">Home</a>
+                        <a href="#services" class="block text-gray-400 hover:text-dents-red transition-colors">Services</a>
+                        <a href="#training" class="block text-gray-400 hover:text-dents-red transition-colors">Training</a>
+                        <a href="#about" class="block text-gray-400 hover:text-dents-red transition-colors">About</a>
+                        <a href="#contact" class="block text-gray-400 hover:text-dents-red transition-colors">Contact</a>
+                    </nav>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-4">Contact</h4>
+                    <div class="space-y-2">
+                        <a href="tel:+14077933446" class="block text-gray-400 hover:text-dents-red transition-colors">
+                            <i class="fas fa-phone mr-2"></i> (407) 793-3446
+                        </a>
+                        <a href="mailto:info@dentsmasterfranchise.com" class="block text-gray-400 hover:text-dents-red transition-colors">
+                            <i class="fas fa-envelope mr-2"></i> info@dentsmasterfranchise.com
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-8 text-center">
+                <p class="text-gray-400 text-sm">&copy; 2024 Dents Master Franchise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Floating CTA Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <button id="floating-cta" onclick="openFloatingCTA()" class="bg-dents-red text-white px-6 py-4 rounded-full font-heading font-bold shadow-2xl hover:scale-105 transition-all duration-200 animate-pulse-soft lg:animate-none">
+            <span class="hidden lg:inline">Get a Free Quote</span>
+            <i class="fas fa-comment-dots lg:hidden text-xl"></i>
+        </button>
+    </div>
+    
+    <!-- Mobile Action Sheet (Hidden) -->
+    <div id="mobile-action-sheet" class="fixed inset-x-0 bottom-0 z-50 bg-white rounded-t-2xl shadow-2xl transform translate-y-full transition-transform duration-300">
+        <div class="p-6">
+            <div class="w-12 h-1 bg-gray-300 rounded-full mx-auto mb-4"></div>
+            <h3 class="font-heading font-bold text-xl text-center mb-6">Get Your Free Quote</h3>
+            <div class="space-y-4">
+                <a href="tel:+14077933446" class="w-full bg-dents-red text-white py-4 rounded-lg font-heading font-bold text-center block">
+                    <i class="fas fa-phone mr-2"></i> Call Now
+                </a>
+                <button onclick="openContactModal(); closeMobileActionSheet()" class="w-full border-2 border-dents-red text-dents-red py-4 rounded-lg font-heading font-bold">
+                    Fill Contact Form
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-lg w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="font-heading font-bold text-2xl">Get Your Free Quote</h3>
+                    <button onclick="closeContactModal()" class="text-gray-500 hover:text-gray-700 text-2xl">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                
+                <form id="modal-contact-form" class="space-y-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-gray-700 text-sm font-semibold mb-2">Name *</label>
+                            <input type="text" name="name" required class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red focus:border-transparent">
+                        </div>
+                        <div>
+                            <label class="block text-gray-700 text-sm font-semibold mb-2">Phone *</label>
+                            <input type="tel" name="phone" required class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red focus:border-transparent">
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-700 text-sm font-semibold mb-2">Email *</label>
+                        <input type="email" name="email" required class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red focus:border-transparent">
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-700 text-sm font-semibold mb-2">Service Type *</label>
+                        <select name="inquiryType" required class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red focus:border-transparent">
+                            <option value="">Select a service</option>
+                            <option value="repair">Dent Repair Service</option>
+                            <option value="training">Training Information</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-gray-700 text-sm font-semibold mb-2">Message</label>
+                        <textarea name="message" rows="3" class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-dents-red focus:border-transparent resize-none"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full bg-dents-red text-white py-4 rounded-lg font-heading font-bold text-lg hover:bg-red-700 transition-colors">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Success Modal -->
+    <div id="success-modal" class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm hidden items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 text-center">
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-check text-green-500 text-2xl"></i>
+            </div>
+            <h3 class="font-heading font-bold text-2xl mb-4">Message Sent!</h3>
+            <p class="text-gray-600 mb-6">Thank you for your inquiry. We'll get back to you within 24 hours.</p>
+            <div class="space-y-3">
+                <a href="tel:+14077933446" class="w-full bg-dents-red text-white py-3 rounded-lg font-semibold block">
+                    <i class="fas fa-phone mr-2"></i> Call Now for Immediate Service
+                </a>
+                <button onclick="closeSuccessModal()" class="w-full border border-gray-300 text-gray-700 py-3 rounded-lg font-semibold">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Google Analytics Placeholder -->
+    <script>
+        // TODO: Replace with actual Google Analytics 4 tracking code
+        // gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
+    <script>
+        (function() {
+            'use strict';
+            
+            // Mobile menu functionality
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            let mobileMenuOpen = false;
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                mobileMenuOpen = !mobileMenuOpen;
+                if (mobileMenuOpen) {
+                    mobileMenu.classList.remove('-translate-y-full', 'opacity-0');
+                    mobileMenu.classList.add('translate-y-0', 'opacity-100');
+                } else {
+                    mobileMenu.classList.remove('translate-y-0', 'opacity-100');
+                    mobileMenu.classList.add('-translate-y-full', 'opacity-0');
+                }
+            });
+            
+            // Close mobile menu when clicking nav links
+            const mobileNavLinks = mobileMenu.querySelectorAll('a[href^="#"]');
+            mobileNavLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    mobileMenuOpen = false;
+                    mobileMenu.classList.remove('translate-y-0', 'opacity-100');
+                    mobileMenu.classList.add('-translate-y-full', 'opacity-0');
+                });
+            });
+            
+            // Header scroll behavior
+            const header = document.getElementById('header');
+            const mobileCallBar = document.getElementById('mobile-call-bar');
+            let lastScrollY = window.scrollY;
+            
+            window.addEventListener('scroll', function() {
+                const currentScrollY = window.scrollY;
+                
+                // Shrink header on scroll
+                if (currentScrollY > 100) {
+                    header.classList.add('py-2');
+                    header.classList.remove('py-4');
+                } else {
+                    header.classList.remove('py-2');
+                    header.classList.add('py-4');
+                }
+                
+                // Show/hide mobile call bar
+                if (window.innerWidth < 1024) { // lg breakpoint
+                    if (currentScrollY > 200 && currentScrollY > lastScrollY) {
+                        // Scrolling down
+                        mobileCallBar.classList.remove('-translate-y-full');
+                        mobileCallBar.classList.add('translate-y-0');
+                    } else if (currentScrollY < lastScrollY) {
+                        // Scrolling up
+                        mobileCallBar.classList.add('-translate-y-full');
+                        mobileCallBar.classList.remove('translate-y-0');
+                    }
+                }
+                
+                lastScrollY = currentScrollY;
+            });
+            
+            // Smooth scrolling for anchor links
+            const navLinks = document.querySelectorAll('a[href^="#"]');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        const headerHeight = header.offsetHeight;
+                        const targetPosition = targetElement.offsetTop - headerHeight;
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+            
+            // Testimonials slider
+            const testimonialsTrack = document.querySelector('.testimonials-track');
+            const testimonialDots = document.querySelectorAll('.testimonial-dot');
+            let currentTestimonial = 0;
+            const totalTestimonials = 3;
+            let testimonialInterval;
+            
+            function showTestimonial(index) {
+                currentTestimonial = index;
+                const translateX = -index * 100;
+                testimonialsTrack.style.transform = `translateX(${translateX}%)`;
+                
+                testimonialDots.forEach((dot, i) => {
+                    if (i === index) {
+                        dot.classList.remove('bg-gray-300');
+                        dot.classList.add('bg-dents-red');
+                    } else {
+                        dot.classList.remove('bg-dents-red');
+                        dot.classList.add('bg-gray-300');
+                    }
+                });
+            }
+            
+            function nextTestimonial() {
+                const next = (currentTestimonial + 1) % totalTestimonials;
+                showTestimonial(next);
+            }
+            
+            function startTestimonialAutoplay() {
+                testimonialInterval = setInterval(nextTestimonial, 6000);
+            }
+            
+            function stopTestimonialAutoplay() {
+                clearInterval(testimonialInterval);
+            }
+            
+            // Dot navigation
+            testimonialDots.forEach((dot, index) => {
+                dot.addEventListener('click', function() {
+                    showTestimonial(index);
+                    stopTestimonialAutoplay();
+                    setTimeout(startTestimonialAutoplay, 10000); // Resume after 10s
+                });
+            });
+            
+            // Pause on hover
+            const testimonialsSlider = document.getElementById('testimonials-slider');
+            testimonialsSlider.addEventListener('mouseenter', stopTestimonialAutoplay);
+            testimonialsSlider.addEventListener('mouseleave', startTestimonialAutoplay);
+            
+            // Start autoplay
+            startTestimonialAutoplay();
+            
+            // Before/After sliders
+            const splitSliders = document.querySelectorAll('.split-slider');
+            splitSliders.forEach(slider => {
+                let isMouseDown = false;
+                let startX = 0;
+                
+                function updateSlider(clientX) {
+                    const rect = slider.getBoundingClientRect();
+                    const x = clientX - rect.left;
+                    const percentage = Math.max(0, Math.min(100, (x / rect.width) * 100));
+                    const afterImage = slider.querySelector('.after-image');
+                    afterImage.style.clipPath = `polygon(${percentage}% 0%, 100% 0%, 100% 100%, ${percentage}% 100%)`;
+                }
+                
+                // Mouse events
+                slider.addEventListener('mousedown', function(e) {
+                    isMouseDown = true;
+                    startX = e.clientX;
+                    updateSlider(e.clientX);
+                    e.preventDefault();
+                });
+                
+                slider.addEventListener('mousemove', function(e) {
+                    if (isMouseDown) {
+                        updateSlider(e.clientX);
+                    }
+                });
+                
+                slider.addEventListener('mouseup', function() {
+                    isMouseDown = false;
+                });
+                
+                // Touch events for mobile
+                slider.addEventListener('touchstart', function(e) {
+                    const touch = e.touches[0];
+                    startX = touch.clientX;
+                    updateSlider(touch.clientX);
+                    e.preventDefault();
+                }, { passive: false });
+                
+                slider.addEventListener('touchmove', function(e) {
+                    const touch = e.touches[0];
+                    updateSlider(touch.clientX);
+                    e.preventDefault();
+                }, { passive: false });
+                
+                // Initialize at 50%
+                updateSlider(slider.getBoundingClientRect().width / 2);
+            });
+            
+            // Contact form functionality
+            const contactForm = document.getElementById('contact-form');
+            const modalContactForm = document.getElementById('modal-contact-form');
+            const inquiryTypeSelect = contactForm.querySelector('select[name="inquiryType"]');
+            const repairFields = document.getElementById('repair-fields');
+            
+            // Show/hide conditional fields
+            inquiryTypeSelect.addEventListener('change', function() {
+                if (this.value === 'repair') {
+                    repairFields.classList.remove('hidden');
+                } else {
+                    repairFields.classList.add('hidden');
+                }
+            });
+            
+            // Form submission
+            function handleFormSubmission(form, e) {
+                e.preventDefault();
+                
+                const formData = new FormData(form);
+                const data = Object.fromEntries(formData.entries());
+                
+                // TODO: Implement actual form submission
+                console.log('Form submission:', data);
+                
+                // Simulate API call
+                setTimeout(() => {
+                    closeContactModal();
+                    showSuccessModal();
+                }, 1000);
+                
+                // TODO: Send to webhook and email to info@dentsmasterfranchise.com
+                // TODO: Store in project database
+                // TODO: Add UTM tracking
+            }
+            
+            contactForm.addEventListener('submit', function(e) {
+                handleFormSubmission(this, e);
+            });
+            
+            modalContactForm.addEventListener('submit', function(e) {
+                handleFormSubmission(this, e);
+            });
+            
+            // UTM parameter tracking
+            const urlParams = new URLSearchParams(window.location.search);
+            const utmFields = ['utm_source', 'utm_medium', 'utm_campaign'];
+            
+            utmFields.forEach(field => {
+                const value = urlParams.get(field);
+                if (value) {
+                    const hiddenInputs = document.querySelectorAll(`input[name="${field}"]`);
+                    hiddenInputs.forEach(input => {
+                        input.value = value;
+                    });
+                }
+            });
+            
+            // Animation on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-slide-up');
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe elements with animation classes
+            const animatedElements = document.querySelectorAll('.animate-slide-up');
+            animatedElements.forEach(element => {
+                observer.observe(element);
+            });
+        })();
+        
+        // Global functions for modal control
+        function openContactModal(preset = '') {
+            const modal = document.getElementById('contact-modal');
+            const form = document.getElementById('modal-contact-form');
+            
+            if (preset === 'training') {
+                form.querySelector('select[name="inquiryType"]').value = 'training';
+            } else if (preset === 'repair') {
+                form.querySelector('select[name="inquiryType"]').value = 'repair';
+            }
+            
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeContactModal() {
+            const modal = document.getElementById('contact-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+        
+        function openFloatingCTA() {
+            if (window.innerWidth < 1024) {
+                // Mobile - show action sheet
+                const actionSheet = document.getElementById('mobile-action-sheet');
+                actionSheet.classList.remove('translate-y-full');
+                actionSheet.classList.add('translate-y-0');
+            } else {
+                // Desktop - open modal
+                openContactModal();
+            }
+        }
+        
+        function closeMobileActionSheet() {
+            const actionSheet = document.getElementById('mobile-action-sheet');
+            actionSheet.classList.add('translate-y-full');
+            actionSheet.classList.remove('translate-y-0');
+        }
+        
+        function showSuccessModal() {
+            const modal = document.getElementById('success-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+        
+        function closeSuccessModal() {
+            const modal = document.getElementById('success-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+        
+        function scrollToSection(sectionId) {
+            const element = document.getElementById(sectionId);
+            if (element) {
+                const headerHeight = document.getElementById('header').offsetHeight;
+                const targetPosition = element.offsetTop - headerHeight;
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+        
+        // Close action sheet when clicking outside
+        document.addEventListener('click', function(e) {
+            const actionSheet = document.getElementById('mobile-action-sheet');
+            const floatingCTA = document.getElementById('floating-cta');
+            
+            if (!actionSheet.contains(e.target) && !floatingCTA.contains(e.target)) {
+                closeMobileActionSheet();
+            }
+        });
+        
+        // Close modal when clicking outside
+        document.addEventListener('click', function(e) {
+            const modal = document.getElementById('contact-modal');
+            const modalContent = modal.querySelector('div > div');
+            
+            if (e.target === modal) {
+                closeContactModal();
+            }
+        });
+        
+        // ESC key to close modals
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeContactModal();
+                closeSuccessModal();
+                closeMobileActionSheet();
+            }
+        });
+    </script>
+</body>
+</html>
